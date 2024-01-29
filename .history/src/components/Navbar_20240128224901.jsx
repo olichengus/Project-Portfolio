@@ -10,7 +10,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Navbar = () => {
-    const resume = require('../assets/resume-icon.png');
+    const resume = require('../assets/resume.jpeg');
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
@@ -74,7 +74,11 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-             <BsFillPersonLinesFill size={30} />
+              <img src={resume} style={{
+                width: '30px',
+                height: '30px'
+              }}
+              }/>
             </a>
           </li>
         </ul>

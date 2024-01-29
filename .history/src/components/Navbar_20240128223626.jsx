@@ -5,12 +5,10 @@ import {
     FaGithub,
     FaLinkedin
   } from 'react-icons/fa';
-import {Resume} from '../assets/resume.jpeg'
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Navbar = () => {
-    const resume = require('../assets/resume-icon.png');
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
@@ -33,6 +31,7 @@ const Navbar = () => {
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
+
         {/* Moble menu */}
         <ul className={!nav ? "hidden": 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify center items-center'}>
                 <li className='py-6 text-4xl'>Home</li>
@@ -40,17 +39,17 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'>Experience</li>
                 <li className='py-6 text-4xl'>Projects</li>
                 <li className='py-6 text-4xl'>Contact</li>
-        </ul>
 
+        </ul>
       {/* Social icons */}
-      <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
+      <div className='flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-              <FaLinkedin size={30} />
+              Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
@@ -58,7 +57,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-              <FaGithub size={30} />
+              Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
@@ -66,7 +65,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-              <HiOutlineMail size={30} />
+              Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
@@ -74,12 +73,11 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-             <BsFillPersonLinesFill size={30} />
+              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
       </div>
-
     </div>
     
 

@@ -35,7 +35,7 @@ const Navbar = () => {
         <ul className={!nav ? "hidden": 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify center items-center'}>
                 <li className='py-6 text-4xl'>Home</li>
                 <li className='py-6 text-4xl'>About</li>
-                <li className='py-6 text-4xl'>Experience</li>
+                <li className='py-6 text-4xl'>Experiene</li>
                 <li className='py-6 text-4xl'>Projects</li>
                 <li className='py-6 text-4xl'>Contact</li>
         </ul>
@@ -56,7 +56,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-              GitHub<FaGithub size={30} />
+              <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
@@ -64,7 +64,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-              Email<HiOutlineMail size={30} />
+              <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
@@ -72,7 +72,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-             Resume<BsFillPersonLinesFill size={30} />
+             <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

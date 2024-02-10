@@ -33,6 +33,6 @@
 }
 
 .bkgroundpage{
-  background: rgb(11,65,176);
-  background: linear-gradient(90deg, rgba(11,65,176,1) 19%, rgba(64,124,239,1) 78%, rgba(52,125,243,1) 100%);
+  background: rgb(48,128,220);
+background: linear-gradient(90deg, rgba(48,128,220,1) 10%, rgba(53,170,237,1) 63%, rgba(0,148,255,1) 100%, rgba(30,132,184,1) 100%);
 }

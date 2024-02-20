@@ -2,7 +2,7 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { useState,useEffect } from 'react';
 import {Link} from 'react-scroll';
-import TypeWriter from './TypeWriter.jsx';
+import TypeWriter from './TypeWriter';
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-blue-1000 text-2xl'>Hi, my name is</p>
         <h1 className='text-white text-7xl font-bold'>Oliver Cheng</h1>
-        <h2 className='text-4xl sm:text-5xl font-bold text-gray-300'> I am a Computer Science student @ UBC.</h2>
-        <TypeWriter text="Weelcome to my Portfolio!"/>
+        <TypeWriter 
+        <h2 className='text-4xl sm:text-5xl font-bold text-[#27292f]'> Welcome to my Portfolio!</h2>
         <div className='background-color'>
           <button className = 'text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             <Link to='work' smooth={true} duration={1000}>

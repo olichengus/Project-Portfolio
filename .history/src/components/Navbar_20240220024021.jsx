@@ -84,7 +84,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex font-bold justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/oliverchng/'
@@ -109,7 +109,7 @@ const Navbar = () => {
               Email<HiOutlineMail size={30} />
             </button>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#424a54]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex font-bold justify-between items-center w-full text-gray-300'
               href='https://docs.google.com/document/d/1rqXDRZy0LsIa-csbMTLzWvaeRUXEz6KGjNAEor1SMbY/edit?usp=sharing'

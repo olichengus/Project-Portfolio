@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div className='bkgroundpage'>
             <div className='w-full h-screen max-w-[1000px] mx-auto p-4 flex flex-col justify-center'>
-                <div name="skills">
+                <div>
                     <p className='text-4xl text-gray-300 font-bold inline border-b-4 border-pink-600'>Skills</p>
                 </div>
 

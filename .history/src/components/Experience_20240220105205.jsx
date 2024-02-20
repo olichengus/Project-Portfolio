@@ -29,7 +29,7 @@ const Experience = () => {
                 <div className=''>
                     <p className='text-left text-4xl text-gray-300'>Arlo Technologies</p>
                     <p className='text-left text-2xl font-bold text-gray-300'>Software Engineer in Test</p>
-                    <p className='text-left text-lg font-bold text-gray-300'> August 2022 - September 2023 </p>
+                    <p className='text-left text-2xl font-bold text-gray-300'> </p>
                     <p className='text-md mt-4 text-gray-300 w-full h-full object-cover'>Involved in Python scripting to test Arlo Smart Home Security products as well as maintaining device firmware deployment pipeline. Worked closely alongside Firmware, Software, and Product teams to discuss and fix bugs for new products and releases. Contributed to the successful launch of the Arlo Security Hub and its surrounding ecosystem such as Sensors, Sirens and Keypad.</p>
                 </div>
             </div>

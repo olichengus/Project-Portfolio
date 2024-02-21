@@ -16,6 +16,9 @@
     "tailwindcss": "^3.4.1",
     "web-vitals": "^2.1.0"
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-protery-in-object"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

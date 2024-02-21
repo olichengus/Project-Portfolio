@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div id='exp' className='bkgroundpage'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-left w-full h-full'>
-            <div className='w-full h-screen max-w-[1000px] mx-auto p-4 flex flex-col justify-center'>
+        <div className='w-full h-screen max-w-[1000px] mx-auto p-4 flex flex-col justify-center'>
             <div className='mt-26'>
                 <p className='text-4xl text-left text-gray-300 font-bold inline border-b-4 border-pink-600'>Work Experience</p>
             </div>
@@ -34,7 +34,6 @@ const Experience = () => {
                     <p className='text-md mt-4 text-gray-300 w-full h-full object-cover'>Involved in Python scripting to test Arlo Smart Home Security products as well as maintaining device firmware deployment pipeline. Worked closely alongside Firmware, Software, and Product teams to discuss and fix bugs for new products and releases. Contributed to the successful launch of the Arlo Security Hub and its surrounding ecosystem such as Sensors, Sirens and Keypad.</p>
                 </div>
             </div>
-        </div>
         </div>
     </div>
   );

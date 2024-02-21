@@ -24,7 +24,7 @@ const Experience = () => {
                         <img className="flex w-full h-full object-cover" src={Maple} alt=''/>
                     </div>
                     <div className='group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto h-150'>
-                        <img className="flex-1 object-cover" src={Macaw} alt=''/>
+                        <img className="flex-1 object-cover" src={Macaw}/>
                     </div>
                 </div>
                 <div className=''>

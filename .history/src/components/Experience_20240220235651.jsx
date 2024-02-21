@@ -15,16 +15,16 @@ const Experience = () => {
             <div className='mt-9 max-w-[1000px] w-full flex-col grid md:grid-cols-2 gap-4'>
                 <div className='sm:text-right grid md:grid-cols-2 gap-1 items-center'>
                     <div className='group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto h-150'>
-                        <img className="flex-1 object-cover" src={Arlo} alt=''/>
+                        <img className="flex-1 object-cover" src={Arlo}/>
                     </div>
                     <div className='group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto h-150'>
-                        <img className="flex w-full h-full object-cover" src={ArloFamily} alt=''/>
+                        <img className="flex w-full h-full object-cover" src={ArloFamily}/>
                     </div>
                     <div className='group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto h-150'>
-                        <img className="flex w-full h-full object-cover" src={Maple} alt=''/>
+                        <img className="flex w-full h-full object-cover" src={Maple}/>
                     </div>
                     <div className='group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto h-150'>
-                        <img className="flex-1 object-cover" src={Macaw} alt=''/>
+                        <img className="flex-1 object-cover" src={Macaw}/>
                     </div>
                 </div>
                 <div className=''>

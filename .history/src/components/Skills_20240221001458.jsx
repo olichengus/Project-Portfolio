@@ -18,7 +18,7 @@ const Skills = () => {
                     <p className='my-4 text-gray-300 text-2xl'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
-                    <img className="w-20 mx-auto mt-5" src={Typescript} alt=''/>
+                    <img className="w-20 mx-auto mt-5" src={Typescript} alt/>
                     <p className='my-4 text-gray-300 mt-19 text-2xl'>TypeScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
@@ -26,7 +26,7 @@ const Skills = () => {
                     <p className='my-4 text-gray-300 text-2xl'>HTML</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
-                    <img className="w-20 mx-auto" src={Java} alt=''/>
+                    <img className="w-20 mx-auto" src={Java}/>
                     <p className='my-4 text-gray-300 text-2xl'>Java</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
@@ -34,7 +34,7 @@ const Skills = () => {
                     <p className='my-4 text-gray-300 text-2xl'>JavaScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
-                    <img className="w-20 mx-auto" src={C} alt=''/>
+                    <img className="w-20 mx-auto" src={C}/>
                     <p className='my-4 text-gray-300 text-2xl'>C/C++</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
@@ -42,7 +42,7 @@ const Skills = () => {
                     <p className='my-4 text-gray-300 text-2xl'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
-                    <img className="w-20 mx-auto w-110" src={SQL} alt=''/>
+                    <img className="w-20 mx-auto w-110" src={SQL}/>
                     <p className='my-4 text-gray-300 text-2xl'>SQL</p>
                 </div>
             </div>

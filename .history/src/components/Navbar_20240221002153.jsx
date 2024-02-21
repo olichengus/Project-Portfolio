@@ -89,7 +89,7 @@ const Navbar = () => {
               className='flex font-bold justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/oliverchng/'
               target="_blank"
-              rel="noreferrer"
+              rel="noreferer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>

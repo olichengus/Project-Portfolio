@@ -36,23 +36,23 @@ const Navbar = () => {
                 </li>
                 <li className='text-2xl'>
                 <Link to='about' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                <button href="#" class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 <span class="font-normal hover:font-bold">About</span>
-                </button>
+                </a>
                 </Link>
                 </li>
                 <li className='text-2xl'>
                 <Link to='exp' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                <a href="#" class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 <span class="font-normal hover:font-bold">Experience</span>
-                </button>
+                </a>
                 </Link>
                 </li>
                 <li className='text-2xl'>
                 <Link to='work' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                <a href="#" class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 <span class="font-normal hover:font-bold">Projects</span>
-                </button>
+                </a>
                 </Link>
                 </li>
                 {/* <li className='text-2xl'>
@@ -89,7 +89,7 @@ const Navbar = () => {
               className='flex font-bold justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/oliverchng/'
               target="_blank"
-              rel="noreferrer"
+              rel="norefferer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>

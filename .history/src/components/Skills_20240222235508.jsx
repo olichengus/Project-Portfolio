@@ -15,7 +15,7 @@ const Skills = () => {
             <div className='w-90 grid grid-cols-4 sm:grid-cols-2 gap-4 text-center py-9'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src={Python} alt="html" />
-                    <p className='my-4 text-gray-300 md:text-2xl sm:text-sm'>Python</p>
+                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto mt-5" src={Typescript} alt=''/>

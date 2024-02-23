@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Buffer />
+      <
       <About />
       <Buffer />
       <Skills />

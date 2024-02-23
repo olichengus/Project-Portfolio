@@ -14,7 +14,7 @@ const Home = () => {
         <TypeWriter text="Weelcome to my Portfolio!"/>
         <div className='background-color'>
           <button className = 'text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            <Link to='work' smooth={true} duration={1000} className='font-serif'>
+            <Link to='work' smooth={true} duration={1000} className='fon'>
             My Projects 
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-2' />

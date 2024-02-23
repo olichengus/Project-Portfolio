@@ -16,7 +16,7 @@ const About = () => {
                     <div className='sm:text-right text-4xl font-bold text-gray-300'>
                         <TypeWriter text="Hii I'm Oliver, nice to meet you. I hope you enjoy your stay." />
                     </div>
-                    <div className='text-gray-300 text-md font-serif'>
+                    <div className='text-gray-300 text-md font-mono'>
                         <p>I am a driven student striving to grow and learn every day - not only as a developer but also as a person. My main technical interests are with Full-Stack Development, Firmware Engineering, Test Automation, and Machine Learning. I am someone who thrives in team settings and will do anything a team needs to succeed even if it is outside my comfort zone. I am also an excellent communicator with both technical and high-level details.
 
 In my free time, I love to watch and play sports. The main teams I cheer for are Manchester United and the Toronto Raptors. Another fun fact is that I am fluent in French because I did French Immersion in high school. If you want to reach out to me, please shoot me an email at oliverjcheng@gmail.com. Have a nice day!</p>

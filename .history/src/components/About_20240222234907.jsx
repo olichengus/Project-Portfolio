@@ -13,7 +13,7 @@ const About = () => {
                     
                 </div>
                 <div className='mt-9 max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='text-right text-4xl font-bold text-gray-300'>
+                    <div className='sm:text-right text-4xl font-bold text-gray-300'>
                         <TypeWriter text="Hii I'm Oliver, nice to meet you. I hope you enjoy your stay." />
                     </div>
                     <div className='text-gray-300 text-md font-serif'>

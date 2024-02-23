@@ -15,35 +15,35 @@ const Skills = () => {
             <div className='w-90 grid grid-cols-4 sm:grid-cols-2 gap-4 text-center py-9'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src={Python} alt="html" />
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>Python</p>
+                    <p className='my-4 text-gray-300 text-2xl sm:text-sm'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto mt-5" src={Typescript} alt=''/>
-                    <p className='my-4 text-gray-300 mt-19 text-2xlsm:text-sm'>TypeScript</p>
+                    <p className='my-4 text-gray-300 mt-19 text-2xl sm:text-sm'>TypeScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src="https://github.com/fireclint/portfolio-app-react/blob/main/src/assets/html.png?raw=true" alt="html" />
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>HTML</p>
+                    <p className='my-4 text-gray-300 text-2xl sm:text-sm'>HTML</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src={Java} alt=''/>
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>Java</p>
+                    <p className='my-4 text-gray-300 text-2xl'>Java</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src="https://github.com/fireclint/portfolio-app-react/blob/main/src/assets/javascript.png?raw=true" alt="html" />
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>JavaScript</p>
+                    <p className='my-4 text-gray-300 text-2xl'>JavaScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src={C} alt=''/>
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>C/C++</p>
+                    <p className='my-4 text-gray-300 text-2xl'>C/C++</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src="https://github.com/fireclint/portfolio-app-react/blob/main/src/assets/react.png?raw=true" alt="html" />
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>React</p>
+                    <p className='my-4 text-gray-300 text-2xl'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto w-110" src={SQL} alt=''/>
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>SQL</p>
+                    <p className='my-4 text-gray-300 text-2xl'>SQL</p>
                 </div>
             </div>
 

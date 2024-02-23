@@ -80,25 +80,16 @@ const Navbar = () => {
                 </Link>
                 </li>
                 <li className='py-6 text-2xl'>
-                <Link to='about' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">About</span>
-                </button>
-                </Link>
+                  About
                   </li>
                 <li className='py-6 text-2xl'>
-                <Link to='exp' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">Experience</span>
-                </button>
-                </Link>
+                  Experience
                   </li>
                 <li className='py-6 text-2xl'>
-                <Link to='work' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">Projects</span>
-                </button>
-                </Link>
+                  Projects
+                  </li>
+                <li className='py-6 text-2xl'>
+                  Contact
                   </li>
         </ul>
 

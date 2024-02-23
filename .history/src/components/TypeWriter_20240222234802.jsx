@@ -25,7 +25,7 @@ const TypeWriter = ({text,speed}) => {
       };
       const displayText = useTypewriter(text, speed);
   return (
-    <h2 className='text-4xlsm:text-2xl font-bold text-gray-300'>
+    <h2 className='text-4xl sm:text-2xl font-bold text-gray-300'>
       {displayText}
     </h2>
   );

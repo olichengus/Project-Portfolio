@@ -39,11 +39,11 @@ const Skills = () => {
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto" src="https://github.com/fireclint/portfolio-app-react/blob/main/src/assets/react.png?raw=true" alt="html" />
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>React</p>
+                    <p className='my-4 text-gray-300 text-2xl'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 bg-[#24498a]'>
                     <img className="w-20 mx-auto w-110" src={SQL} alt=''/>
-                    <p className='my-4 text-gray-300 text-2xlsm:text-sm'>SQL</p>
+                    <p className='my-4 text-gray-300 text-2xl'>SQL</p>
                 </div>
             </div>
 

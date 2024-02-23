@@ -100,6 +100,9 @@ const Navbar = () => {
                 </button>
                 </Link>
                   </li>
+                <li className='py-6 text-2xl'>
+                  Contact
+                  </li>
         </ul>
 
       {/* Social icons */}

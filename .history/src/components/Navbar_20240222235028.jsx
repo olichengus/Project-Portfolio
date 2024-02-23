@@ -73,33 +73,17 @@ const Navbar = () => {
         {/* Moble menu <a href="#" id="style-2" data-replace="this link"><span>this link</span></a></p>*/}
         <ul className={!nav ? "hidden": 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify center items-center'}>
                 <li className='py-6 text-2xl'>
-                <Link to='home' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">Home</span>
-                </button>
-                </Link>
+                  Home
                 </li>
                 <li className='py-6 text-2xl'>
-                <Link to='about' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">About</span>
-                </button>
-                </Link>
+                  About
                   </li>
                 <li className='py-6 text-2xl'>
-                <Link to='exp' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">Experience</span>
-                </button>
-                </Link>
+                  Experience
                   </li>
                 <li className='py-6 text-2xl'>
-                <Link to='work' smooth={true} duration={1000}>
-                <button class="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <span class="font-normal hover:font-bold">Projects</span>
-                </button>
-                </Link>
-                  </li>
+                  Projects</li>
+                <li className='py-6 text-2xl'>Contact</li>
         </ul>
 
       {/* Social icons */}

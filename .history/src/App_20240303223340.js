@@ -20,7 +20,6 @@ function App() {
       <Experience />
       <Buffer />
       <Work />
-      <Buffer />
       <Contact />
     </div>
   );

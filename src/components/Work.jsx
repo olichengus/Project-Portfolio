@@ -3,6 +3,8 @@ import Telomeres from '../assets/telomeres.png';
 import Insight from '../assets/Insight.png';
 import WishList from '../assets/wishlist.png';
 import Roads from '../assets/roads.png';
+import NBA from '../assets/nba.png';
+import Bolt from '../assets/bolt.jpeg';
 
 const Work = () => {
     return (
@@ -14,9 +16,49 @@ const Work = () => {
 
             {/* Container */}
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-7'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-7'>
+
 
             {/* Grid Item */}
+                <div style = {{backgroundImage: `url(${NBA})`}}
+                    className='shadow-lg shadow-[#040c16] group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto content-div'>
+                        
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                NBA Poeltl Draft Game
+                            </span>
+                            <div className='pt-8 text-center'>
+                                {/* <a href ="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a> */}
+                                <a href = "https://github.com/olichengus/nba-draft-poeltl-webapp">
+                                    <button className='text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+
+                {/* Grid Item */}
+                <div style = {{backgroundImage: `url(${Bolt})`}}
+                    className='shadow-lg shadow-[#040c16] group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto content-div'>
+                        
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 items-center justify-center'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                UBC Bolt Case Comp
+                            </span>
+                            <div className='pt-8 text-center'>
+                                {/* <a href ="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a> */}
+                                <a href = "https://github.com/olichengus/bolt_datacomp">
+                                    <button className='text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div style = {{backgroundImage: `url(${Insight})`}}
                     className='shadow-lg shadow-[#040c16] group container object-cover w-full h-full rounded-md flex justify-center items-center mx-auto content-div'>
                         

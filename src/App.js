@@ -4,7 +4,6 @@ import About from './components/About';
 import Work from './components/Work';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Buffer from './components/Buffer';
 import Contact from './components/Contact';
 
 function App() {

@@ -12,15 +12,10 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Buffer />
       <About />
-      <Buffer />
-      <Skills />
-      <Buffer />      
+      <Skills />   
       <Experience />
-      <Buffer />
       <Work />
-      <Buffer />
       <Contact />
     </div>
   );

@@ -1,8 +1,7 @@
-import React, { useState } from 'react';  
+import React from 'react';  
 import Telomeres from '../assets/telomeres.png';  
 import Insight from '../assets/Insight.png';  
 import WishList from '../assets/wishlist.png';  
-import Roads from '../assets/roads.png';  
 import NBA from '../assets/nba.png';  
 import Bolt from '../assets/bolt.jpeg';  
 import './Work.css'; // Ensure the correct path for CSS  
@@ -41,8 +40,6 @@ const projects = [
 ];  
 
 const Work = () => {  
-  const [selectedProject, setSelectedProject] = useState(null);  
-
   return (
     <div name='work' id='exp' className='experience-section'>  
     <div className='experience-container'>  

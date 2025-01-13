@@ -1,7 +1,6 @@
 import React from 'react';  
 import { HiArrowNarrowRight } from 'react-icons/hi';  
-import { Link } from 'react-scroll';  
-import TypeWriter from './TypeWriter.jsx';  
+import { Link } from 'react-scroll';   
 import './Home.css'; // Assuming you have a Home.css file for these styles  
 
 const Home = () => {  

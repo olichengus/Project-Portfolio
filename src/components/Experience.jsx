@@ -1,12 +1,6 @@
 import React, { useState } from 'react';  
 import Arlo from '../assets/arloblue.png';  
-import ArloFamily from '../assets/arlofamily.jpeg';  
-import Maple from '../assets/maple.jpeg';  
-import Macaw from '../assets/macaw.jpeg';  
-import Airswift from '../assets/dappworks/airswift.png';  
 import Dappworks from '../assets/dappworks/Dappworks_Square.jpg';  
-import Team from '../assets/dappworks/team.JPG';  
-import Chilling from '../assets/dappworks/chilling.jpg';  
 import './Experience.css'; // Assuming the styles are in this CSS file  
 const DAPPWORKS_TEXT =  "I was the main front-end developer, before transitioning to a full-stack developer for the AirSwift.io project: a payment gateway system that allows merchants to handle cryptocurrency payments. For the front-end I built the user interface using React and NextJS. I would regularly perform refactorings and component extractions to enhance development efficiency and seamless developer onboarding for new team members. For the back-end I worked with SpringBoot and Java to build robust RESTful APIs that would handle the business logic. I also worked on the database schema and queries to ensure that the data was stored and retrieved correctly. Our team used JIRA and Confluence to manage our tasks and facilitate Agile development. We would have daily stand-ups to discuss our progress, and to promote collaboration"
 const Experience = () => {  

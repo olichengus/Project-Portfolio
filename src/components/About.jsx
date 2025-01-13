@@ -1,29 +1,24 @@
 import React from 'react';
 import TypeWriter from './TypeWriter';
+import './About.css';
 
 
 const About = () => {
     return (
-        <div name='about' className='w-full h-screen bkgroundpage text-gray-300'>
-            <div className='flex flex-col justify-center items-center w-full h-full'>
-                <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
-                    <div className='sm:text-right pb-8 pl-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
-                    </div>
-                    
-                </div>
-                <div className='mt-9 max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='text-right text-4xl font-bold text-gray-300'>
-                        <TypeWriter text="Hii I'm Oliver, nice to meet you. I hope you enjoy your stay." />
-                    </div>
-                    <div className='text-gray-300 text-md font-serif'>
-                        <p>I am a driven student striving to grow and learn every day - not only as a developer but also as a person. My main technical interests are with Full-Stack Development, Firmware Engineering, Test Automation, and Machine Learning. I am someone who thrives in team settings and will do anything a team needs to succeed even if it is outside my comfort zone. I am also an excellent communicator with both technical and high-level details.
-
-In my free time, I love to watch and play sports. The main teams I cheer for are Manchester United and the Toronto Raptors. Another fun fact is that I am fluent in French because I did French Immersion in high school. If you want to reach out to me, please shoot me an email at oliverjcheng@gmail.com. Have a nice day!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div className="about">  
+        <div className="container">  
+          <h1 className="title">About</h1>  
+          <div className="content">  
+            <div className="intro">  
+              <p>Hi, I'm <span className="highlight">Oliver</span>, nice to meet you. I hope you enjoy your stay.</p>  
+            </div>  
+            <div className="description">  
+              <p>I am a driven student striving to grow and learn every day - not only as a developer but also as a person. My main technical interests are in Full-Stack Development, Firmware Engineering, Test Automation, and Machine Learning. I thrive in team settings and will do anything a team needs to succeed, even if it is outside my comfort zone. I am also an excellent communicator with both technical and high-level details.</p>  
+              <p>In my free time, I love to watch and play sports. The main teams I cheer for are Manchester United and the Toronto Raptors. Fun fact: I am fluent in French because I did French immersion in high school. If you want to reach out to me, please shoot me an email at <a href="mailto:oliverjcheng@gmail.com" className="highlight">oliverjcheng@gmail.com</a>. Have a nice day!</p>  
+            </div>  
+          </div>  
+        </div>  
+      </div>  
     )
 }
 

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';  
 import Arlo from '../assets/arloblue.png';  
-import Dappworks from '../assets/dappworks/Dappworks_Square.jpg';  
+import Dappworks from '../assets/dappworks/Dappworks_Square.jpg';
+import Arista from '../assets/arista.jpeg'
 import './Experience.css'; // Assuming the styles are in this CSS file  
 const DAPPWORKS_TEXT =  "I was the main front-end developer, before transitioning to a full-stack developer for the AirSwift.io project: a payment gateway system that allows merchants to handle cryptocurrency payments. For the front-end I built the user interface using React and NextJS. I would regularly perform refactorings and component extractions to enhance development efficiency and seamless developer onboarding for new team members. For the back-end I worked with SpringBoot and Java to build robust RESTful APIs that would handle the business logic. I also worked on the database schema and queries to ensure that the data was stored and retrieved correctly. Our team used JIRA and Confluence to manage our tasks and facilitate Agile development. We would have daily stand-ups to discuss our progress, and to promote collaboration"
 const Experience = () => {  
-  const [isDappworksExpanded, setDappworksExpanded] = useState(false);  
+  const [isDappworksExpanded, setDappworksExpanded] = useState(false);
+  const [isAristaExpanded, setAristaExpanded] = useState(false);  
   const [isArloExpanded, setArloExpanded] = useState(false);  
 
   return (  
@@ -12,6 +14,27 @@ const Experience = () => {
       <div className='experience-container'>  
         <div className='mt-10'>  
           <p className='title'>Work Experience</p>  
+        </div>
+
+        <div className='experience-item'>  
+          <div className='image-grid'>  
+            {[Arista].map((image, index) => (  
+              <div key={index} className='image-wrapper'>  
+                <img className="image" src={image} alt='' />  
+              </div>  
+            ))}  
+          </div>  
+          <div className='details'>  
+            <p className='company'>Arista Networks</p>  
+            <p className='position'>Software Engineer Intern</p>  
+            <p className='date'>January 2025 - Present</p>  
+            <button className='toggle-btn' onClick={() => setAristaExpanded(!isAristaExpanded)}>  
+              {isAristaExpanded ? 'Show Less' : 'Show More'}  
+            </button>  
+            {isAristaExpanded && (  
+              <p className='description'>{"Member of the DMF Software Team. Working on the Analytics Node project using Java, Python, JavaScript and React."}</p>  
+            )}  
+          </div>  
         </div>  
         
         {/* Dappworks Experience */}  
